@@ -1,47 +1,33 @@
 [
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q8_0.gguf",
+        "model": "https://huggingface.co/f5aiteam/Diffusion_Models/resolve/main/qwen_image_fp8_e4m3fn.safetensors",
         "destination": "unet"
     },
+
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q8_0.gguf",
-        "destination": "unet"
-    },
-    {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1_VAE_bf16.safetensors",
-        "destination": "vae"
-    },
-    {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
-        "destination": "vae"
-    },
-    {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/chatpig/encoder/resolve/main/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+        "model": "https://huggingface.co/f5aiteam/CLIP/resolve/main/qwen_2.5_vl_7b_fp8_scaled.safetensors",
         "destination": "clip"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.5-LOW.safetensors",
+        "model": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+        "destination": "vae"
+    },
+    {
+        "platform": "huggingface",
+        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_comfy.safetensors",
         "destination": "lora"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.3_high.safetensors",
+        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_e72_comfy.safetensors",
         "destination": "lora"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
-        "destination": "lora"
-    },
-    {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/MatheeshaNxtDoor/marinasolerv1/resolve/main/marinagirlv1_low_noise.safetensors",
+        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_e90_comfy.safetensors",
         "destination": "lora"
     },
     {
