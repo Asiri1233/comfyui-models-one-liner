@@ -17,17 +17,17 @@
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_comfy.safetensors",
+        "model": "https://huggingface.co/Asirilorasave/ArinaLaneLoras/resolve/main/ArinaWan3000.safetensors",
         "destination": "lora"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_e72_comfy.safetensors",
+        "model": "https://huggingface.co/Asirilorasave/ArinaLaneLoras/resolve/main/Arinawane54comfy.safetensors",
         "destination": "lora"
     },
     {
         "platform": "huggingface",
-        "model": "https://huggingface.co/Asirilorasave/QwenMarina/resolve/main/my_qwen_lora_v1_e90_comfy.safetensors",
+        "model": "https://huggingface.co/kudzueye/boreal-qwen-image/resolve/main/qwen-boreal-portraits-portraits-high-rank.safetensors",
         "destination": "lora"
     },
     {
